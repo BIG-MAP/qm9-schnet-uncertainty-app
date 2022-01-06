@@ -1,0 +1,5 @@
+numpy
+pandas
+torch
+scikit-learn==1.0
+ase

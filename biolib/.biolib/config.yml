@@ -1,0 +1,34 @@
+biolib_version: 2
+modules:
+    main:
+        command: python /home/biolib/main.py
+        image: 'local-docker://qm9-schnet-uncertainty:latest'
+        input_files:
+            - COPY / /home/biolib/
+        output_files:
+            - COPY /home/biolib/ /
+        source_files:
+            - COPY / /home/biolib/
+        working_directory: /home/biolib/
+arguments:
+    -
+        default_value: input.db
+        description: Input ASE database file.
+        key: '--dataset'
+        key_value_separator: ' '
+        required: true
+        type: file
+citation:
+    entry_type: article
+    title: >-
+        Calibrated uncertainty for molecular property prediction using ensembles
+        of message passing neural networks
+    author: >-
+        Jonas Busk and Peter Bjørn Jørgensen and Arghya Bhowmik and Mikkel N
+        Schmidt and Ole Winther and Tejs Vegge
+    journal: 'Machine Learning: Science and Technology'
+    year: '2021'
+    volume: '3'
+    number: '1'
+    doi: 10.1088/2632-2153/ac3eb3
+    url: 'https://doi.org/10.1088/2632-2153/ac3eb3'
