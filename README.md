@@ -7,4 +7,6 @@ See biolib/README.md for additional details.
 
 ## Acknowledgments
 
-The authors acknowledge support from the Novo Nordisk Foundation (SURE, NNF19OC0057822) and the European Union's Horizon 2020 research and innovation program under Grant Agreement No. 957189 (BIG-MAP) and No. 957213 (BATTERY2030PLUS).
+The authors acknowledge support from the Novo Nordisk Foundation (SURE, NNF19OC0057822).
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, the large-scale European research initiative for inventing the sustainable batteries of the future.
